@@ -53,7 +53,7 @@ function IsEndingByLower(str, word) {
     for (const match of matches) {
         if (match.length < 2)
             return;
-        if (match[1].toLowerCase() == word);
+        if (match[1].toLowerCase() == word)
             return true;
     }
     return false;
