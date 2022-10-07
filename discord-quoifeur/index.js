@@ -6,7 +6,12 @@ const gifs = [
     "feur-1.gif",
     "feur-2.gif",
     "feur-3.gif",
-    "feur-4.gif",
+    "feur-5.gif",
+    "feur-6.gif",
+    "feur-7.gif",
+    "feur-8.gif",
+    "feur-9.gif",
+    "feur-10.gif",
 ]
 
 
