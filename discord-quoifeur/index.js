@@ -1,5 +1,6 @@
 const { Client, GatewayIntentBits, EmbedBuilder, AttachmentBuilder } = require('discord.js');
 const config = require("./config.json");
+require('dotenv').config()
 
 const gifs = [
     "feur-0.gif",
@@ -68,5 +69,5 @@ function getRandomInt(max) {
     return Math.floor(Math.random() * max);
 }
 
-client.login(config.BOT_TOKEN);
+client.login(process.env.BOT_TOKEN);
 console.log("Running");

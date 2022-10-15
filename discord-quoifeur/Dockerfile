@@ -1,5 +1,7 @@
 FROM node:latest
 
+ENV BOT_TOKEN=YOUR_TOKEN
+
 # Create the bot's directory
 RUN mkdir -p /usr/src/bot
 WORKDIR /usr/src/bot
